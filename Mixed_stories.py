@@ -4,8 +4,8 @@ story2 = "story_B.txt"
 
 count = 1
 f = open("mixed_stories.txt", "r")
-# for line in f:
-#     print(line)
+for line in f:
+    print(line)
 
 f1 = open(story1, "a")
 f2 = open(story2, "a")
